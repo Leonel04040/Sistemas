@@ -18,19 +18,18 @@ function mododecbin()
 }
 function calcula()
 {
-
-	let um = document.getElementById('um');
-	let dois = document.getElementById('dois');
-	let tres = document.getElementById('tres');
-	let quatro = document.getElementById('quatro');
-	pode = true;
-	if (bin == true) 
-	{
-		let primeira = (um.value).toString();
-		let segundo = (dois.value).toString();
-		let terceiro = (tres.value).toString();
-		let quarto = (quatro.value).toString();
-		if (primeira.length == 8 && segundo.length == 8 && terceiro.length == 8 && quarto.length == 8) 
+let um = document.getElementById('um');
+let dois = document.getElementById('dois');
+let tres = document.getElementById('tres');
+let quatro = document.getElementById('quatro');
+pode = true;
+if (bin == true) 
+{
+	let primeira = (um.value).toString();
+	let segundo = (dois.value).toString();
+	let terceiro = (tres.value).toString();
+	let quarto = (quatro.value).toString();
+	if (primeira.length == 8 && segundo.length == 8 && terceiro.length == 8 && quarto.length == 8) 
 		{
 			
 			for (let i = 0; i < 8; i++) 

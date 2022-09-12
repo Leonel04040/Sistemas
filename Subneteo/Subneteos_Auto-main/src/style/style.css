@@ -1,0 +1,47 @@
+body
+{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #FFF275;
+	font-family: 'Courier New';
+}
+	
+
+.btn
+{
+	margin: 10px 0;
+	background-color: #FF8C42;
+	border-radius: 7px;
+	color: rgb(255, 255, 255);
+	font-size: 15pt;
+}
+
+h1{
+	text-align: center;
+}
+
+
+#subrede
+{
+	width: 45%;
+	float: left;
+	border-style: solid;
+  	border-width: 3px;
+  	border-color: #fff;
+	border-radius: .25rem;
+  	padding: 5px;
+}
+
+#subdec
+{
+	width: 45%;
+	float: right;
+	border-style: solid;
+  	border-width: 3px;
+  	border-color: #fff;
+	border-radius: .25rem;
+  	padding: 5px;
+}
